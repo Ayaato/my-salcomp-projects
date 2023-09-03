@@ -58,6 +58,28 @@ Sanal makinenizde çalışan Flask uygulamanızı internete açmak için sanal m
 
 Daha profesyonel bir görünüm elde etmek için hosting.com.tr veya benzer bir domain sağlayıcısından bir domain satın alın. Ardından, bu domaini sanal makinenizin IP adresi ile yönlendirerek projenizi özel bir domain üzerinde çalıştırabilirsiniz.
 
+### Adım 9️⃣: Özelleştirmeler
+
+Projeyi kişiselleştirmek için aşağıdaki adımları izleyin:
+
+#### 1. Shopier API Anahtarları
+
+- `main.py` dosyasında bulunan `"Bearer API_KEY"` ifadesini, kendi Shopier API
+
+ anahtarınızla değiştirin.
+
+#### 2. SMTP Ayarları
+
+- `"YOUR_GMAIL"` ve `"YOUR_PASSWORD_OF_GMAIL"` ifadelerini, kendi Gmail adresiniz ve şifrenizle değiştirin. Bu, e-posta doğrulama işlemleri için kullanılır.
+
+#### 3. Ürün ID'leri
+
+- `get_emails` fonksiyonunda, `"YOUR_PRODUCT_ID"` ifadesini, Shopier hesabınızda oluşturduğunuz ürün ID'leri ile değiştirin.
+
+### Adım 🔟: Projeyi Canlıya Alma
+
+Projeniz artık canlı! Tarayıcınızda projenizin URL'sini ziyaret ederek kullanabilirsiniz. Örneğin, [stayhard.com.tr](http://stayhard.com.tr).
+
 ## 🔍 Kodların Ana İşlevleri
 
 Proje içindeki Python kodlarının ana işlevleri şunlardır:
