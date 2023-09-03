@@ -2,6 +2,8 @@
 
 ![Img](https://i.hizliresim.com/r3ebnma.png)
 
+*Siteye ulaşmak için [bu](https://salcompturkiye--omerasln.repl.co/) bağlantıya tıklayabilirsiniz!*
+
 ## index.html Dosyası 📄
 HTML dosyası, web sayfasının yapısını belirler.
 
