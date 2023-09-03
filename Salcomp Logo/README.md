@@ -1,4 +1,4 @@
-Logo'nun Yapım Aşamaları!
+##Logonun Yapım Aşamaları!
 
 1. 1080x1080 dosya oluşturuldu 🖼️
 2. Salcomp Arkaplan görseli eklendi 📸
@@ -72,8 +72,6 @@ Logo'nun Yapım Aşamaları!
 41. Geri tuşuna tıklandı ve Temel bölümündeki "Gölgeler" efekti -40 yapıldı 🌄
 42. Pozlama +0.05 yapıldı 📸
 43. Doku +100 yapıldı 🖼️
-44. Tem
-
-el kısmından çıkıldı ve aşağıdaki "Efektler" kısmına girildi 🌌
+44. Temel kısmından çıkıldı ve aşağıdaki "Efektler" kısmına girildi 🌌
 45. Gren ve Boyut efekti 45 yapıldı 🌠
 46. Dosya -> Dışa Aktar -> Farklı Dışa Aktar denilerek dışa aktarıldı (Format JPG olarak seçildi) 📂📷
