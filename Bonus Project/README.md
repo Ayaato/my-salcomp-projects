@@ -1,12 +1,10 @@
-# 📘 Proje Dokümantasyonu: Flask ile Kitap Okuma ve Satın Alma Uygulaması
+# 🚀 Flask Projesi Dokümantasyonu
 
-Bu dokümantasyon, Flask kullanarak oluşturduğunuz kitap okuma ve satın alma uygulamanızın ayrıntılı açıklamalarını içermektedir.
-
-*Önceden belirtmeliyim ki: bu sitenin tasarımı tamamen bana ait değildir, ancak arkauç yazılımı tamamen bana aittir.*
+Bu dokümantasyon, Flask kullanarak oluşturduğum bir web uygulamasının nasıl çalıştırılacağı ve projenizin temel işlevleri hakkında bilgi içermektedir. Kendi deneyimimden yola çıkarak size adım adım rehberlik edeceğim. Ayrıca, projenin canlı çalışan versiyonunu [stayhard.com.tr](http://stayhard.com.tr) adresinde görebilirsiniz.
 
 ## 🎯 Proje Amacı
 
-Bu proje, kullanıcıların çevrimiçi kitapları satın almasını veya okumasını sağlayan basit bir web uygulamasını hedeflemektedir. Kullanıcılar, bir e-posta adresi aracılığıyla giriş yapar, kitapları görüntüler ve satın alır veya okur. Projede aşağıdaki temel özellikler bulunmaktadır:
+Bu proje, kullanıcıların çevrimiçi kitapları satın almasını veya okumasını sağlayan basit bir web uygulamasını hedeflemektedir. Kullanıcılar, bir e-posta adresi aracılığıyla giriş yapar, kitapları görüntüler ve satın alır veya okur. Projeyi nasıl çalıştırabileceğinizi ve özelleştirebileceğinizi aşağıda adım adım açıklayacağım. Projedeki temel özellikler ise şunlardır:
 
 - Kullanıcı Girişi
 - E-posta Doğrulama
@@ -14,29 +12,51 @@ Bu proje, kullanıcıların çevrimiçi kitapları satın almasını veya okumas
 - Kitap Satın Alma veya Okuma
 - Tema ve Stil Seçenekleri
 
-## 🚀 Nasıl Çalıştırılır
+## 🚀 Nasıl Çalıştırılır?
 
-Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+Projenizi çalıştırmak ve internet üzerinde yayınlamak için aşağıdaki adımları izleyebilirsiniz:
 
-1. Projeyi bilgisayarınıza klonlayın veya zip dosyasını indirin.
+### Adım 1️⃣: Amazon EC2 Üzerinde Sanal Makine Oluşturma
 
-2. Python yüklü değilse [Python](https://www.python.org/downloads/) web sitesinden indirin ve yükleyin.
+Amazon Web Services (AWS) üzerinde bir Windows sanal makine (Instance) oluşturun. Bu sanal makine, projenizi barındırmak için kullanılacaktır.
 
-3. Gerekli bağımlılıkları kurmak için terminalde proje dizinine gidin ve aşağıdaki komutu çalıştırın:
+### Adım 2️⃣: Sanal Makineye Bağlanma
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+Sanal makineye erişmek için RDP (Remote Desktop Protocol) istemcisi kullanın. Ayrıca, .PEM dosyasındaki şifreyi çözerek erişiminizi sağlayın.
 
-4. Proje dizinindeyken aşağıdaki komutu çalıştırarak Flask uygulamasını başlatın:
+### Adım 3️⃣: Proje Dosyalarını Yükleme
 
-   ```bash
-   python main.py
-   ```
+Projeyi yerel bilgisayarınızdan sanal makinenize kopyalayın. Bu adım, projenizin kaynak kodlarını içeren dosyaların sanal makinenize taşınmasını sağlar.
 
-5. Tarayıcınızda [http://localhost:80](http://localhost:80) adresine gidin ve uygulamayı kullanmaya başlayın.
+### Adım 4️⃣: Python Kurulumu
 
-Elbette, kodların ana işlevlerini daha ayrıntılı bir şekilde açıklayan bir bölüm ekleyebilirim. İşte kodların ana işlevlerini açıklayan ek bir bölüm:
+Sanal makinenizde Python'un en son sürümünü kurun. Bu adım, Flask uygulamanızın çalışması için gereklidir.
+
+### Adım 5️⃣: Proje Dizinine Gitme
+
+Sanal makinenizde komut istemcisini açın ve projenizin bulunduğu dizine gidin. Örneğin:
+
+```
+cd ProjeYolu
+```
+
+### Adım 6️⃣: Uygulamayı Çalıştırma
+
+Flask uygulamanızı başlatmak için aşağıdaki komutu kullanın:
+
+```
+python main.py
+```
+
+Bu komut, projenizi yerel sunucunuzda çalıştıracak ve belirli bir IP adresi ve bağlantı noktası üzerinden erişilebilir hale getirecektir.
+
+### Adım 7️⃣: Hosting Hizmeti Sağlama
+
+Sanal makinenizde çalışan Flask uygulamanızı internete açmak için sanal makinenizin IP adresini kullanın. Bu, projenizin geçici bir URL'si olacaktır. Örneğin, `http://51.20.1.29/` gibi bir IP adresi olabilir.
+
+### Adım 8️⃣: Özel Domain Kullanma
+
+Daha profesyonel bir görünüm elde etmek için hosting.com.tr veya benzer bir domain sağlayıcısından bir domain satın alın. Ardından, bu domaini sanal makinenizin IP adresi ile yönlendirerek projenizi özel bir domain üzerinde çalıştırabilirsiniz.
 
 ## 🔍 Kodların Ana İşlevleri
 
