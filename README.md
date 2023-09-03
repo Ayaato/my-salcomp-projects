@@ -1,1 +1,1 @@
-## My Awesome Salcomp Projects!
+## My Salcomp Projects! 🚀
