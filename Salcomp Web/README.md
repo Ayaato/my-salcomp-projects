@@ -1,4 +1,4 @@
-# [Hangisi Daha İyi Dersiniz?](https://salcompturkiye--omerasln.repl.co/)
+# [Hangisi Daha İyi Dersiniz?](https://salcompturkiye--omerasln.repl.co/) 🔥
 
 ![Img](https://i.hizliresim.com/r3ebnma.png)
 
