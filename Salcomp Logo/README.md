@@ -1,6 +1,6 @@
 # Hangisi Daha İyi Gibi Duruyor?
 
-[Img](https://i.hizliresim.com/2eh5655.png)
+[!Img](https://i.hizliresim.com/2eh5655.png)
 
 ## Logonun Yapım Aşamaları!
 
