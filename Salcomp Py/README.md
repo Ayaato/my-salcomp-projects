@@ -1,4 +1,4 @@
-# İşte Karşınızda Salcomp'un Sayı Tespit Sistemi! 📱📊
+# İşte Karşınızda Salcomp'un Telefon Sayısı Takip Sistemi! 📱📊
 
 Proje, bir telefon barkod kayıt ve izleme uygulamasını içerir. Uygulama, kullanıcının telefonların barkodlarını okutmasına izin verir 📸📚 ve her bir telefonun kaç kez geçildiğini izler 🔄📈. Aynı zamanda kullanıcılar tarafından eklenen telefonları saklar 📂 ve veritabanında tutar 💾.
 
