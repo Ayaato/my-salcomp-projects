@@ -90,8 +90,6 @@ Proje içindeki Python kodlarının ana işlevleri şunlardır:
 - **smtplib ve email**: E-posta doğrulama işlemleri için kullanılan Python modülleri.
 - **HTML ve CSS**: Kullanıcı arayüzünü oluşturmak için kullanılan temel web teknolojileri.
 
-Bu açıklamalar, projenizin kod yapısını ve işlevselliğini daha iyi anlamanıza yardımcı olmalıdır. Projeyi daha fazla özelleştirmek ve geliştirmek için bu kodları kullanabilirsiniz. Başarılar dileriz! 👏📚
-
 ## 📁 Dosya Dizini
 
 Proje dosya dizini aşağıdaki şekildedir:
@@ -138,5 +136,3 @@ Proje içindeki Python kodları aşağıdaki işlevlere sahiptir:
 Projedeki HTML dosyaları, kullanıcı arayüzünün tasarlandığı ve Flask ile birleştirildiği dosyalardır. HTML dosyaları, kullanıcıların kitapları görüntülemesini ve işlemlerini gerçekleştirmesini sağlar.
 
 ---
-
-Bu dokümantasyon, Flask ile geliştirilen kitap okuma ve satın alma uygulamanızın temel işleyişini ve ayrıntılarını açıklamaktadır. Uygulamanın geliştirilmesi ve özelleştirilmesi için bu dokümantasyonu kullanabilirsiniz. Başarılar dileriz! 👏📚
