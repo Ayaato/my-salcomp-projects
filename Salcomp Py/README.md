@@ -45,3 +45,35 @@ Uygulama, bir SQLite veritabanı kullanarak telefon bilgilerini ve geçiş sayı
 ## Ek Notlar 📝🤔
 - Barkod okuma işlevselliği eklemek isterseniz, bir barkod okuyucu cihazı ve uygun bir kütüphane kullanmanız gerekebilir 📸📚.
 - Uygulama, veritabanı işlemleri için SQLite kullanır, ancak daha büyük ölçekli projeler için farklı bir veritabanı sistemi tercih edilebilir 💼📊.
+
+Şimdi, her bir metodu daha ayrıntılı olarak açıklayalım:
+
+### `veritabani_olustur()` Metodu 📂💽
+![Img1](https://i.hizliresim.com/on6930n.png)
+
+Bu metod, SQLite veritabanını oluşturur veya var olan bir veritabanına bağlanır. Veritabanı, telefon bilgilerini ve geçiş sayılarını saklamak için kullanılır.
+
+### `telefonlari_kontrol_et_ve_kaydet()` Metodu 📝📅
+![Img2](https://i.hizliresim.com/1rh878w.png)
+
+Bu metod, veritabanında herhangi bir telefon kaydının olup olmadığını kontrol eder. Eğer veritabanında hiç telefon kaydı yoksa, telefonları rastgele barkodlarla kaydeder. Bu işlem, uygulama başladığında sadece bir kez gerçekleştirilir.
+
+### `telefon_gecildi(barkod)` Metodu 📸🔄
+![Img3](https://i.hizliresim.com/ekq1azz.png)
+
+Bu metod, kullanıcının bir barkodu okuttuğunda çağrılır. Barkod, veritabanında bulunursa ilgili telefonun geçiş sayısını artırır. Aksi takdirde, bir hata mesajı verir.
+
+### `barkod_okut()` Metodu 📸📝
+![Img4](https://i.hizliresim.com/jt9vtbf.png)
+
+Bu metod, kullanıcının bir barkodu okutmak için "Okut" düğmesine tıkladığında çağrılır. Giriş kutusundan okunan barkodu alır ve `telefon_gecildi()` metodunu çağırarak işlemi gerçekleştirir.
+
+### `telefonlari_getir()` Metodu 📊📁
+![Img5](https://i.hizliresim.com/385r6tu.png)
+
+Bu metod, veritabanından tüm telefonları ve ilgili geçiş sayılarını alır ve bir liste olarak döndürür. Bu liste, "Telefon Listesi" bölümünde görüntülenir.
+
+### `guncelle_liste()` Metodu 📊🔄
+![Img6](https://i.hizliresim.com/5fzc88o.png)
+
+Bu metod, "Telefon Listesi" bölümünü günceller. Veritabanından alınan telefon bilgilerini kullanarak mevcut listeyi günceller. Bu, yeni geçişlerin anlık
