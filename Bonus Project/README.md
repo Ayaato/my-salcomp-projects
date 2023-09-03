@@ -1,5 +1,6 @@
 # Bonus Projemin Dokümantasyonu! 🚀
 
+![Img](https://i.hizliresim.com/dm4cqa9.png)
 Bu dokümantasyon, Flask kullanarak oluşturduğum bir web uygulamasının nasıl çalıştırılacağı ve projenizin temel işlevleri hakkında bilgi içermektedir. Kendi deneyimimden yola çıkarak size adım adım rehberlik edeceğim. Ayrıca, projenin canlı çalışan versiyonunu [stayhard.com.tr](http://stayhard.com.tr) adresinde görebilirsiniz.
 
 ## 🎯 Proje Amacı
