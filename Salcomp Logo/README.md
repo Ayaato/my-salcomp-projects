@@ -1,4 +1,4 @@
-##Logonun Yapım Aşamaları!
+# Logonun Yapım Aşamaları!
 
 1. 1080x1080 dosya oluşturuldu 🖼️
 2. Salcomp Arkaplan görseli eklendi 📸
