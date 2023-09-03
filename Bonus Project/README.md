@@ -34,15 +34,63 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyebi
 
 5. Tarayıcınızda [http://localhost:80](http://localhost:80) adresine gidin ve uygulamayı kullanmaya başlayın.
 
-## 🧐 İncelikler
+Elbette, kodların ana işlevlerini daha ayrıntılı bir şekilde açıklayan bir bölüm ekleyebilirim. İşte kodların ana işlevlerini açıklayan ek bir bölüm:
 
-Projenin önemli incelikleri ve kullanılan teknolojiler:
+## 🔍 Kodların Ana İşlevleri
 
-- Flask: Web uygulaması oluşturmak için kullanılan Python web çerçevesi.
-- Flask-Login: Kullanıcı oturumu yönetimi için kullanılan Flask eklentisi.
-- requests: API çağrıları yapmak için kullanılan Python modülü.
-- smtplib ve email: E-posta doğrulama işlemleri için kullanılan Python modülleri.
-- HTML ve CSS: Kullanıcı arayüzünü oluşturmak için kullanılan temel web teknolojileri.
+Proje içindeki Python kodlarının ana işlevleri şunlardır:
+
+### `main.py` İşlevleri
+
+1. **Kullanıcı Girişi ve Oturum Yönetimi**
+
+   - `User` sınıfı, kullanıcıları temsil etmek için kullanılır.
+   - `load_user` fonksiyonu, kullanıcıları ID'leriyle yüklemek için kullanılır.
+   - `login_manager` ile oturum yönetimi sağlanır.
+
+2. **E-posta Adreslerini API'den Getirme**
+
+   - `get_emails` fonksiyonu, API'den müşteri e-posta adreslerini çeker ve `customer_emails` listesine depolar.
+
+3. **Ana Sayfa (`/`)**
+
+   - `main` fonksiyonu, ana sayfayı temsil eder ve `main.html` şablonunu döndürür.
+
+4. **E-posta Doğrulama İşlemi**
+
+   - `create_verification_code` fonksiyonu, rastgele bir doğrulama kodu oluşturur.
+   - `send_code_to_mail` fonksiyonu, kullanıcıya e-posta ile doğrulama kodu gönderir.
+
+5. **Kitapları Görüntüleme ve Yönlendirme**
+
+   - `login` fonksiyonu, kullanıcının kitapları görüntülemesi için giriş yapmasını sağlar.
+   - `check_verification` fonksiyonu, kullanıcının doğrulama kodunu kontrol eder ve kitapları yönlendirir.
+
+6. **Kitap Sayfaları**
+
+   - `firstbook` ve `secondbook` fonksiyonları, kullanıcının kitapları görüntülemesini sağlar.
+
+### HTML Dosyaları İşlevleri
+
+1. **`main.html`**: Ana sayfa tasarımını içerir. Kullanıcının kitapları görüntüleyebilmesi için bir kart tasarımı sunar.
+
+2. **`login.html`**: Kullanıcının e-posta adresini girebileceği bir form sunar.
+
+3. **`verification.html`**: Doğrulama kodunu girmek için bir form sunar.
+
+4. **`firstbook.html` ve `secondbook.html`**: Kitap sayfalarının tasarımını içerir. Kullanıcıların kitapları okuyabilmesi için bir görünüm sunar.
+
+5. **`error_page.html`**: Hataları ve uyarıları gösteren bir sayfa tasarımı sunar.
+
+## 🧰 Teknolojiler ve Kütüphaneler
+
+- **Flask**: Web uygulaması geliştirmek için kullanılan Python çerçevesi.
+- **Flask-Login**: Kullanıcı oturumu yönetimi için kullanılan Flask eklentisi.
+- **requests**: API çağrıları yapmak için kullanılan Python modülü.
+- **smtplib ve email**: E-posta doğrulama işlemleri için kullanılan Python modülleri.
+- **HTML ve CSS**: Kullanıcı arayüzünü oluşturmak için kullanılan temel web teknolojileri.
+
+Bu açıklamalar, projenizin kod yapısını ve işlevselliğini daha iyi anlamanıza yardımcı olmalıdır. Projeyi daha fazla özelleştirmek ve geliştirmek için bu kodları kullanabilirsiniz. Başarılar dileriz! 👏📚
 
 ## 📁 Dosya Dizini
 
