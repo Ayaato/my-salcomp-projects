@@ -2,6 +2,8 @@
 
 Bu dokümantasyon, Flask kullanarak oluşturduğunuz kitap okuma ve satın alma uygulamanızın ayrıntılı açıklamalarını içermektedir.
 
+*Önceden belirtmeliyim ki: bu sitenin tasarımı tamamen bana ait değildir, ancak arkauç yazılımı tamamen bana aittir.*
+
 ## 🎯 Proje Amacı
 
 Bu proje, kullanıcıların çevrimiçi kitapları satın almasını veya okumasını sağlayan basit bir web uygulamasını hedeflemektedir. Kullanıcılar, bir e-posta adresi aracılığıyla giriş yapar, kitapları görüntüler ve satın alır veya okur. Projede aşağıdaki temel özellikler bulunmaktadır:
