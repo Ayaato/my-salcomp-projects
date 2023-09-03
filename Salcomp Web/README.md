@@ -1,6 +1,6 @@
 # Hangisi Daha İyi Dersiniz?
 
-![alt text]([http://url/to/img.png](https://i.hizliresim.com/r3ebnma.png))
+![alt text]([http://url/to/img.png](https://i.hizliresim.com/r3ebnma.png)
 
 ## index.html Dosyası 📄
 HTML dosyası, web sayfasının yapısını belirler.
