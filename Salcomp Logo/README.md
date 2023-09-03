@@ -1,4 +1,8 @@
-# Logonun Yapım Aşamaları!
+# Hangisi Daha İyi Gibi Duruyor? 🌟
+
+![Img](https://i.hizliresim.com/2eh5655.png) 
+
+## Logonun Yapım Aşamaları!
 
 1. 1080x1080 dosya oluşturuldu 🖼️
 2. Salcomp Arkaplan görseli eklendi 📸
